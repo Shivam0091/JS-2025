@@ -16,9 +16,9 @@ switch (month) {
     case "feb":
         console.log("feb");
         break;
-    case "march":
+    case "mar":
         console.log("march");
-        break;
+        // break;
     case "april":
         console.log("april");
         break;
