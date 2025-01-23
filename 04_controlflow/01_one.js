@@ -1,12 +1,12 @@
 // // if
-// const isUserloggedIn = true
-// const temperature = 40
+const isUserloggedIn = true
+const temperature = 49
 
-// if ( temperature === 40 ){
-//     console.log("less than 50");
-// } else {
-//     console.log("temperature is greater than 50");
-// }
+if ( temperature === 40 ){
+    console.log("less than 50");
+} else {
+    console.log("temperature is greater than 50");
+}
 
 // console.log("Execute");
 // // <, >, <=, >=, ==, !=, ===, !==
@@ -32,15 +32,18 @@
 //     console.log("less than 1200");
 // }
 
-// const userLoggedIn = true
-// const debitCard = true
-// const loggedInFromGoogle = true
-// const loggedInFromEmail = false
+const userLoggedIn = true
+const debitCard = false
+const loggedInFromGoogle = true
+const loggedInFromEmail = false
 
-// if (userLoggedIn && debitCard && 2==2) {
-//     console.log("Allow to buy course");
-// }
+if (userLoggedIn && debitCard) {
+    console.log("Allow to buy course");
+}
+else{
+    console.log("error");
+}
 
-// if (loggedInFromGoogle || loggedInFromEmail) {
-//     console.log("User logged in");
-// }
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("User logged in");
+}

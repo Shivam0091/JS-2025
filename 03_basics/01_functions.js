@@ -7,13 +7,15 @@ function sayMyName(){
     console.log("m");
 }
 
-sayMyName()
+// sayMyName()
 
-function addTwoNumbers(number1, number2){
+// -----------------------------------------------------------------
+// function addTwoNumbers(number1, number2){
 
-    console.log(number1 + number2);
-}
+//     console.log(number1 + number2);
+// }
 // console.log(addTwoNumbers(5,9))
+
 // function addTwoNumbers(number1, number2){
 
 //     // let result = number1 + number2
@@ -21,10 +23,10 @@ function addTwoNumbers(number1, number2){
 //     return number1 + number2
 // }
 
-const result = addTwoNumbers(3, 59)
+// const result = addTwoNumbers(3, 59)
 
-console.log("Result:", result);
-
+// console.log("Result:", result);
+// ---------------------------------------------------------------------
 
 function loginUserMessage(username = "sam"){
     if(!username){
@@ -34,15 +36,16 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
 // console.log(loginUserMessage("hitesh"))
-
+// ------------------------------------------------------------
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
 
-console.log(calculateCartPrice(200, 400, 6768, 78678, 6787500, 2000))
+// console.log(calculateCartPrice(200, 400, 6768, 78678, 6787500, 2000))
+// ----------------------------------------------
 
 const user = {
     username: "hitesh",
@@ -54,10 +57,12 @@ function handleObject(anyobject){
 }
 
 handleObject(user)
-handleObject({
-    username: "sam",
-    prices: 399
-})
+// --------------------------------------
+
+// handleObject({
+//     username: "sam",
+//     prices: 399
+// })
 
 const myNewArray = [200, 400, 100, 600]
 
